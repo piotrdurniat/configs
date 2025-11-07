@@ -36,6 +36,8 @@ Setup:
 ln -s ./.tmux.conf ~/.tmux.conf
 ```
 
+To load the config in current tmux session press `Ctrl+b` then type `:source-file ~/.tmux.conf`
+
 ## Launch or focus kitty with tmux script for X11
 
 - Script that launches kitty with tmux if not already open, otherwise focues the kitty window
