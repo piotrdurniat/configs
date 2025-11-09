@@ -57,3 +57,13 @@ Import:
 2. Open **Custom Shortcuts** tab.
 3. Click on **Edit** > **Import**.
 4. Select file.
+
+## Obsidian
+
+- [`.obsidian.vimrc`](./.obsidian.vimrc) contains custom vimrc for Obsidian with [Vimrc Support Plugin](https://github.com/esm7/obsidian-vimrc-support).
+- copy this file to the root directory of your obsidian vault
+
+```
+cp ./.obsidian.vimrc ~/notes/
+```
+
