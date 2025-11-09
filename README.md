@@ -34,8 +34,12 @@ Setup:
 - or create a link (from this repo root):
 
 ```bash
-ln -s ./.tmux.conf ~/.tmux.conf
+cp ./.tmux.conf ~/.tmux.conf
 ```
+
+- To install the plugins press `Prefix + I`
+- To update `Prefix + U`
+- To reload tmux config: `Prefix + r`
 
 To load the config in current tmux session press `Ctrl+b` then type `:source-file ~/.tmux.conf`
 
@@ -44,7 +48,7 @@ To load the config in current tmux session press `Ctrl+b` then type `:source-fil
 - Script that launches kitty with tmux if not already open, otherwise focues the kitty window
 - currently works only on X11 :(
 - requirements `xdotool` (`sudo apt install xdotool`) 
-- [./.launch_kitty_tmux.sh](.launch_kitty_tmux.sh)
+- [./.launch_kitty_tmux.sh](./.launch_kitty_tmux.sh)
 
 ## Custom KDE Shortcuts
 
