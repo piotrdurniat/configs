@@ -75,7 +75,7 @@ Type=SIMPLE_ACTION_DATA
 ActionsCount=1
 
 [Data_1_3Actions0]
-CommandURL=obsidian
+CommandURL=xdg-open "obsidian://"
 Type=COMMAND_URL
 
 [Data_1_3Conditions]
@@ -205,7 +205,7 @@ Type=SIMPLE_ACTION_DATA
 ActionsCount=1
 
 [Data_1_8Actions0]
-CommandURL=gemini-desktop
+CommandURL=/home/piotr/projects/configs/launch_google_gemini_pwa.sh
 Type=COMMAND_URL
 
 [Data_1_8Conditions]
@@ -231,7 +231,7 @@ Type=SIMPLE_ACTION_DATA
 ActionsCount=1
 
 [Data_1_9Actions0]
-CommandURL=/home/piotr/projects/configs/.launch_kitty_tmux.sh
+CommandURL=/home/piotr/projects/configs/launch_kitty_tmux.sh
 Type=COMMAND_URL
 
 [Data_1_9Conditions]
