@@ -71,3 +71,13 @@ Import:
 cp ./.obsidian.vimrc ~/notes/
 ```
 
+## Google Gemini
+
+Prerequisites:
+- `wmctrl`
+
+Setup:
+- install "Progressive web apps for Firefox" extension in firefox
+- install gemini as pwa
+- locate installed `.desktop` file in `~/.local/share/applications`
+- edit the `launch_google_gemini_pwa.sh` file with your `.desktop` file
