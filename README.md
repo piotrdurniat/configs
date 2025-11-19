@@ -27,21 +27,23 @@ Configuration:
 - Rosé Pine theme <3
 - some plugins
 
-
 Setup:
 - back up your existing config
 - copy `./.tmux.conf` to `~/.tmux.conf`,
-- or create a link (from this repo root):
 
 ```bash
 cp ./.tmux.conf ~/.tmux.conf
 ```
 
-- To install the plugins press `Prefix + I`
-- To update `Prefix + U`
-- To reload tmux config: `Prefix + r`
+- install TPM (Tmux package manager), [TPM Github](https://github.com/tmux-plugins/tpm)
+- prefix is set to default `Ctrl+b`
+- load the config in current tmux session, press `Prefix` then type `:source-file ~/.tmux.conf`
+- install the plugins, press `Prefix + I`
 
-To load the config in current tmux session press `Ctrl+b` then type `:source-file ~/.tmux.conf`
+Mangement:
+- update tpm packages, press `Prefix + U`
+- to reload tmux config: `Prefix + r`
+
 
 ## Launch or focus kitty with tmux script for X11
 
