@@ -44,6 +44,12 @@ Mangement:
 - update tpm packages, press `Prefix + U`
 - to reload tmux config: `Prefix + r`
 
+### Tmux short path in window name
+
+```bash
+cp tmux-short-path.sh ~/.local/bin/tmux-short-path.sh
+```
+
 
 ## Launch or focus kitty with tmux script for X11
 
@@ -83,3 +89,17 @@ Setup:
 - install gemini as pwa
 - locate installed `.desktop` file in `~/.local/share/applications`
 - edit the `launch_google_gemini_pwa.sh` file with your `.desktop` file
+
+
+## Tmux sessionizer
+
+requirements:
+- `fzf` (https://github.com/junegunn/fzf?tab=readme-ov-file#linux-packages)
+
+```bash
+sudo apt install fzf
+```
+
+```bash
+cp ./tmux-sessionizer ~/.local/bin/
+```
