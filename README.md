@@ -35,13 +35,13 @@ Setup:
 cp ./.tmux.conf ~/.tmux.conf
 ```
 
-- install TPM (Tmux package manager), [TPM Github](https://github.com/tmux-plugins/tpm)
+- install TPM (Tmux package manager), [TPM GitHub](https://github.com/tmux-plugins/tpm)
 - prefix is set to default `Ctrl+b`
 - load the config in current tmux session, press `Prefix` then type `:source-file ~/.tmux.conf`
 - install the plugins, press `Prefix + I`
 
-Mangement:
-- update tpm packages, press `Prefix + U`
+Management:
+- update `tpm` packages, press `Prefix + U`
 - to reload tmux config: `Prefix + r`
 
 ### Tmux short path in window name
@@ -50,12 +50,15 @@ Mangement:
 cp tmux-short-path.sh ~/.local/bin/tmux-short-path.sh
 ```
 
-
 ## Launch or focus kitty with tmux script for X11
 
-- Script that launches kitty with tmux if not already open, otherwise focues the kitty window
+- requirements `xdotool`
+```bash
+sudo apt install xdotool
+```
+
+- launches kitty with tmux if not already open, otherwise focuses the kitty window
 - currently works only on X11 :(
-- requirements `xdotool` (`sudo apt install xdotool`) 
 - [./.launch_kitty_tmux.sh](./.launch_kitty_tmux.sh)
 
 ## Custom KDE Shortcuts
@@ -73,9 +76,9 @@ Import:
 ## Obsidian
 
 - [`.obsidian.vimrc`](./.obsidian.vimrc) contains custom vimrc for Obsidian with [Vimrc Support Plugin](https://github.com/esm7/obsidian-vimrc-support).
-- copy this file to the root directory of your obsidian vault
+- Copy this file to the root directory of your obsidian vault
 
-```
+```bash
 cp ./.obsidian.vimrc ~/notes/
 ```
 
@@ -86,7 +89,7 @@ Prerequisites:
 
 Setup:
 - install "Progressive web apps for Firefox" extension in firefox
-- install gemini as pwa
+- install Gemini as PWA
 - locate installed `.desktop` file in `~/.local/share/applications`
 - edit the `launch_google_gemini_pwa.sh` file with your `.desktop` file
 
