@@ -94,7 +94,10 @@ Setup:
 - edit the `launch_google_gemini_pwa.sh` file with your `.desktop` file
 
 
-## Tmux sessionizer
+## Tmux fzf
+
+Opens a fzf in a new tab and switches to the selected directory.
+- keymap `<prefix>f`
 
 requirements:
 - `fzf` (https://github.com/junegunn/fzf?tab=readme-ov-file#linux-packages)
@@ -104,5 +107,6 @@ sudo apt install fzf
 ```
 
 ```bash
-cp ./tmux-sessionizer ~/.local/bin/
+cp ./tmux-fzf ~/.local/bin/
 ```
+
